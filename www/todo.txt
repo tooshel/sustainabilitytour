@@ -1,0 +1,60 @@
+
+
+BEFORE LAUNCH
+--stop the icons from being draggable
+--stop it from captureing clicks!
+--change back to slide for the demo!
+--clear console.logs
+
+
+
+index.html?dragme=true
+
+
+TODO:
+--fix the css on the detail pages so it looks better
+--figure out how to add in the power using custom labels
+
+
+
+BUGS
+--Why does it hang when you reload a page (with the spinner)?
+
+PROBLEMS:
+--clicking on back and seeing the map all messed up
+
+
+
+
+FOR DEMO:
+Explain PhoneGap
+Show that it's backed by a google doc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

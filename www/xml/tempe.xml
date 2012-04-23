@@ -1,0 +1,1291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<campusmap name="Tempe campus"
+      shortname="tempe"
+      fullname="ASU at the Tempe campus"
+      lat="33.42" lon="-111.928" zoomlevel="15"
+      url="http://www.asu.edu/"
+      tour="http://www.asu.edu/tour/tempe/"
+      imageurl="images/tempe_image.jpg">
+  <overlay type="campus">
+    <tilelayer zoomlevel="17" xmin="24776" xmax="24787" ymin="52607" ymax="52616" />
+    <tilelayer zoomlevel="16" xmin="12388" xmax="12393" ymin="26303" ymax="26308" />
+    <tilelayer zoomlevel="15" xmin="6194" xmax="6196" ymin="13151" ymax="13154" />
+    <tilelayer zoomlevel="14" xmin="3097" xmax="3098" ymin="6575" ymax="6577" />
+    <tilelayer zoomlevel="13" xmin="1548" xmax="1549" ymin="3287" ymax="3288" />
+    <tilelayer zoomlevel="12" xmin="774" xmax="774" ymin="1644" ymax="1644" />
+  </overlay>
+
+  <markerset type="building" name="Buildings">
+
+    <marker number="160E" code="ACACI" name="Acacia Hall (Hassayampa Academic Village)"
+          lat="33.415473" lon="-111.93002"
+		  imageurl="http://www.asu.edu/tour/tempe/photos/hassa.jpg"
+          toururl="http://www.asu.edu/tour/tempe/acaci.html" />
+
+	<marker number="163C" code="ACHAL" name="Acourtia Hall (Hassayampa Academic Village)"
+          lat="33.416438" lon="-111.927543"  
+		  imageurl="http://www.asu.edu/tour/tempe/photos/achal.jpg"
+          toururl="http://www.asu.edu/tour/tempe/achal.html"/>
+
+    <marker number="159A" code="ADELA" name="Adelphi II Commons East"
+          lat="33.41317817" lon="-111.9271213"
+          imageurl="http://www.asu.edu/tour/tempe/photos/adel2.jpg"
+          toururl="http://www.asu.edu/tour/tempe/adel2.html" />
+
+    <marker number="159B" code="ADELB" name="Adelphi II Commons West"
+          lat="33.41317814" lon="-111.9275949"
+          imageurl="http://www.asu.edu/tour/tempe/photos/adel2.jpg"
+          toururl="http://www.asu.edu/tour/tempe/adel2.html" />
+
+    <marker number="159C" code="ADELC" name="Adelphi II Commons Community Center"
+          lat="33.413529" lon="-111.92761"
+          imageurl="http://www.asu.edu/tour/tempe/photos/adel2.jpg"
+          toururl="http://www.asu.edu/tour/tempe/adel2.html" />
+
+    <marker number="157A" code="ADELE" name="Adelphi Commons (East)"
+          lat="33.41408658" lon="-111.9275794"
+          imageurl="http://www.asu.edu/tour/tempe/photos/adel1.jpg"
+          toururl="http://www.asu.edu/tour/tempe/adel1.html" />
+
+    <marker number="157E" code="ADELS" name="Adelphi Commons (South)"
+          lat="33.41325362" lon="-111.9279523"
+          imageurl="http://www.asu.edu/tour/tempe/photos/adel1.jpg"
+          toururl="http://www.asu.edu/tour/tempe/adel1.html" />
+
+    <marker number="157F" code="ADEMF" name="Adelphi Commons (Mail Facility)"
+          lat="33.41380156" lon="-111.9279312"
+          imageurl="http://www.asu.edu/tour/tempe/photos/adel1.jpg"
+          toururl="http://www.asu.edu/tour/tempe/adel1.html" />
+
+    <marker number="157B" code="ADENE" name="Adelphi Commons (Notheast)"
+          lat="33.41446635" lon="-111.9277716"
+          imageurl="http://www.asu.edu/tour/tempe/photos/adel1.jpg"
+          toururl="http://www.asu.edu/tour/tempe/adel1.html" />
+
+    <marker number="157C" code="ADENW" name="Adelphi Commons (Northwest)"
+          lat="33.41414788" lon="-111.9282994"
+          imageurl="http://www.asu.edu/tour/tempe/photos/adel1.jpg"
+          toururl="http://www.asu.edu/tour/tempe/adel1.html" />
+
+    <marker number="157D" code="ADESW" name="Adelphi Commons (Southwest)"
+          lat="33.41333392" lon="-111.928298"
+          imageurl="http://www.asu.edu/tour/tempe/photos/adel1.jpg"
+          toururl="http://www.asu.edu/tour/tempe/adel1.html" />
+		  
+	<marker number="173B" code="AGVHAL" name="Agave Hall"
+          lat="33.4148933" lon="-111.9289147"  
+          imageurl="http://barrett.asu.edu/Files/Images/NewBarrettAriel.jpg"
+          toururl="http://barrett.asu.edu/w-New_Campus_Updates_with_Live_Webcam-208.aspx" />
+    
+    <marker number="153" code="ALBER" name="Alberta B. Farrington Softball Stadium"
+          lat="33.4253925" lon="-111.9234505"  
+          imageurl="http://www.asu.edu/tour/tempe/photos/alber.jpg"
+          toururl="http://www.asu.edu/tour/tempe/alber.html" />
+
+    <marker number="080B" code="ALPHA-B" name="Alpha Epsilon Pi"
+          lat="33.42275951" lon="-111.9280425"  
+          imageurl="http://www.asu.edu/tour/tempe/photos/alpha.jpg"
+          toururl="http://www.asu.edu/tour/tempe/alpha.html"/>
+
+    <marker number="080C" code="ALPHA-B" name="Tau Kappa Epsilon"
+          lat="33.42300457" lon="-111.9282545"  
+          imageurl="http://www.asu.edu/tour/tempe/photos/alpha.jpg"
+          toururl="http://www.asu.edu/tour/tempe/alpha.html"/>
+
+    <marker number="080D" code="ALPHA-D" name="Sigma Phi Epsilon"
+          lat="33.42313568" lon="-111.9287782"  
+          imageurl="http://www.asu.edu/tour/tempe/photos/alpha.jpg"
+          toururl="http://www.asu.edu/tour/tempe/alpha.html"/>
+
+    <marker number="080E" code="ALPHA-E" name="Phi Sigma Kappa"
+          lat="33.42336154" lon="-111.9292476"  
+          imageurl="http://www.asu.edu/tour/tempe/photos/alpha.jpg"
+          toururl="http://www.asu.edu/tour/tempe/alpha.html"/>
+
+    <marker number="080F" code="ALPHA-F" name="Sigma Nu"
+          lat="33.42358162" lon="-111.9297762"  
+          imageurl="http://www.asu.edu/tour/tempe/photos/alpha.jpg"
+          toururl="http://www.asu.edu/tour/tempe/alpha.html"/>
+
+    <marker number="080G" code="ALPHA-G" name="Sigma Chi"
+          lat="33.42399184" lon="-111.9290632"  
+          imageurl="http://www.asu.edu/tour/tempe/photos/alpha.jpg"
+          toururl="http://www.asu.edu/tour/tempe/alpha.html"/>
+
+    <marker number="080I" code="ALPHA-I" name="Phi Kappa Alpha"
+          lat="33.42368977" lon="-111.9281393"  
+          imageurl="http://www.asu.edu/tour/tempe/photos/alpha.jpg"
+          toururl="http://www.asu.edu/tour/tempe/alpha.html"/>
+
+    <marker number="080K" code="ALPHA-K" name="Delta Sigma Phi"
+          lat="33.42317887" lon="-111.9272071"  
+          imageurl="http://www.asu.edu/tour/tempe/photos/alpha.jpg"
+          toururl="http://www.asu.edu/tour/tempe/alpha.html"/>
+
+    <marker number="60" code="ANX" name="Art Annex"
+          lat="33.4238472" lon="-111.9347191"  
+          imageurl="http://www.asu.edu/tour/tempe/photos/anx.jpg"
+          toururl="http://www.asu.edu/tour/tempe/anx.html" />
+
+    <marker number="R41" code="APMA" name="ASU Performing &amp; Media Arts"
+          lat="33.42349549" lon="-111.9242535"  
+          imageurl="http://www.asu.edu/tour/tempe/photos/apma.jpg"
+          toururl="http://www.asu.edu/tour/tempe/apma.html"/>
+
+    <marker number="71" code="AQUAT" name="Mona Plummer Aquatic Complex"
+          lat="33.42412499" lon="-111.9341374"
+          imageurl="http://www.asu.edu/tour/tempe/photos/aquat.jpg"
+          toururl="http://www.asu.edu/tour/tempe/aquat.html" />
+
+    <marker number="160B" code="ARHAL" name="Arroyo Hall (Hassayampa Academic Village)"
+          lat="33.415799" lon="-111.929603" 
+		  imageurl="http://www.asu.edu/tour/tempe/photos/arhal.jpg"
+          toururl="http://www.asu.edu/tour/tempe/arhal.html" />
+
+    <marker number="87" code="ART" name="Art Bldg."
+          lat="33.42049207" lon="-111.9373303"
+          imageurl="http://www.asu.edu/tour/tempe/photos/art.jpg"
+          toururl="http://www.asu.edu/tour/tempe/art.html" />
+
+    <marker number="94" code="ARWH" name="Art Warehouse"
+          lat="33.42092989" lon="-111.9378014"
+          imageurl="http://www.asu.edu/tour/tempe/photos/arwh.jpg"
+          toururl="http://www.asu.edu/tour/tempe/arwh.html" />
+
+    <marker number="78" code="ASUPD" name="ASU Police"
+          lat="33.414167" lon="-111.934444"
+          imageurl="http://www.asu.edu/tour/tempe/photos/asupd.jpg"
+          toururl="http://www.asu.edu/tour/tempe/aspd.html" />
+		  
+
+    <marker number="158" code="ATHLE" name="Athletes Performance"
+          lat="33.42428099" lon="-111.9237697"  />
+
+    <marker number="40" code="BA" name="Business Administration"
+          lat="33.41662044" lon="-111.9345092"
+          imageurl="http://www.asu.edu/tour/tempe/photos/ba.jpg"
+          toururl="http://www.asu.edu/tour/tempe/ba.html" />
+
+    <marker number="040C" code="BAC" name="Business Administration C Wing"
+          lat="33.416548" lon="-111.9338409"
+          imageurl="http://www.asu.edu/tour/tempe/photos/bac.jpg"
+          toururl="http://www.asu.edu/tour/tempe/bac.html" />
+
+    <marker number="040C" code="BARRETT" name="Barrett Honors College"
+          lat="33.415278" lon="-111.9275" />
+
+    <marker number="97" code="BBTS" name="Band Bldg., Toilets &amp; Storage"
+          lat="33.42555014" lon="-111.9241225"  />
+
+    <marker number="104A" code="BDA" name="Biodesign Institute A"
+          lat="33.41900999" lon="-111.9283503"
+          imageurl="http://www.asu.edu/tour/tempe/photos/bda.jpg"
+          toururl="http://www.asu.edu/tour/tempe/bda.html" />
+
+    <marker number="104B" code="BDB" name="Biodesign Institute B"
+          lat="33.41970168" lon="-111.9283932"
+          imageurl="http://www.asu.edu/tour/tempe/photos/bdb.jpg"
+          toururl="http://www.asu.edu/tour/tempe/bdb.html" />
+
+    <marker number="39" code="BKSTR" name="Bookstore"
+          lat="33.41778585" lon="-111.9318336"
+          imageurl="http://www.asu.edu/tour/tempe/photos/bkstr.jpg"
+          toururl="http://www.asu.edu/tour/tempe/bkstr.html" />
+
+    <marker number="X24" code="BTPS" name="Batting Tunnels @ Packard Stadium"
+          lat="33.4284775" lon="-111.9281598"  />
+
+    <marker number="R10B" code="BYAC" name="Artisan Court at the Brickyard"
+          lat="33.42348806" lon="-111.9388917"
+          imageurl="http://www.asu.edu/tour/tempe/photos/byac.jpg"
+          toururl="http://www.asu.edu/tour/tempe/byac.html" />
+		  
+	<marker number="R10B" code="BYENG" name="Brickyard Engineering"
+          lat="33.4234005" lon="-111.9395363"
+          imageurl="http://www.asu.edu/tour/tempe/photos/byeng.jpg"
+          toururl="http://www.asu.edu/tour/tempe/byeng.html" />
+
+    <marker number="R10C" code="BYOH" name="Orchid House at the Brickyard"
+          lat="33.42400858" lon="-111.9387173"
+          imageurl="http://www.asu.edu/tour/tempe/photos/byoh.jpg"
+          toururl="http://www.asu.edu/tour/tempe/byoh.html" />
+
+    <marker number="CADY" code="CADY" name="Cady Fountain"
+          lat="33.418333" lon="-111.935"
+          imageurl="http://www.asu.edu/tour/tempe/photos/cady.jpg"
+          toururl="http://www.asu.edu/tour/tempe/cady.html" />
+
+    <marker number="R11A" code="CAM" name="College Avenue Marketplace"
+          lat="33.42289429" lon="-111.9345832"  />
+
+    <marker number="127" code="CDN" name="College of Design North"
+          lat="33.42144291" lon="-111.9370673"
+          imageurl="http://www.asu.edu/tour/tempe/photos/cdn.jpg"
+          toururl="http://www.asu.edu/tour/tempe/cdn.html" />
+
+    <marker number="88" code="CDS" name="College of Design South"
+          lat="33.4210106" lon="-111.9370806"
+          imageurl="http://www.asu.edu/tour/tempe/photos/cds.jpg"
+          toururl="http://www.asu.edu/tour/tempe/cds.html" />
+	
+	<marker number="173C" code="CERHAL" name="Cereus Hall"
+          lat="33.41498286" lon="-111.9278526"  
+          imageurl="http://barrett.asu.edu/Files/Images/NewBarrettAriel.jpg"
+          toururl="http://barrett.asu.edu/w-New_Campus_Updates_with_Live_Webcam-208.aspx" />
+
+    <marker number="17" code="CFS" name="Center for Family Studies"
+          lat="33.42102243" lon="-111.9362848"
+          imageurl="http://www.asu.edu/tour/tempe/photos/cfs.jpg"
+          toururl="http://www.asu.edu/tour/tempe/cfs.html" />
+
+    <marker number="70" code="CGS" name="Ceramics Graduate Studio"
+          lat="33.42233815" lon="-111.9271692"  
+          imageurl="http://www.asu.edu/tour/tempe/photos/cgs.jpg"
+          toururl="http://www.asu.edu/tour/tempe/cgs.html" />
+
+    <marker number="8" code="CHAPL" name="Danforth Chapel"
+          lat="33.41849664" lon="-111.9353263"
+          imageurl="http://www.asu.edu/tour/tempe/photos/chapl.jpg"
+          toururl="http://www.asu.edu/tour/tempe/chapl.html" />
+
+    <marker number="145" code="CHILD" name="Campus Children's Center"
+          lat="33.41987325" lon="-111.9246751"
+          imageurl="http://www.asu.edu/tour/tempe/photos/child.jpg"
+          toururl="http://www.asu.edu/tour/tempe/child.html" />
+
+    <marker number="074A" code="CHOLA-A" name="Cholla Apartments Bldg. A"
+          lat="33.41812714" lon="-111.9256808"
+          imageurl="http://www.asu.edu/tour/tempe/photos/chola.jpg"
+          toururl="http://www.asu.edu/tour/tempe/chola.html" />
+
+    <marker number="074B" code="CHOLA-B" name="Cholla Apartments Bldg. B"
+          lat="33.41835217" lon="-111.9259074"
+          imageurl="http://www.asu.edu/tour/tempe/photos/chola.jpg"
+          toururl="http://www.asu.edu/tour/tempe/chola.html" />
+
+    <marker number="074C" code="CHOLA-C" name="Cholla Apartments Bldg. C"
+          lat="33.41885132" lon="-111.9254027"
+          imageurl="http://www.asu.edu/tour/tempe/photos/chola.jpg"
+          toururl="http://www.asu.edu/tour/tempe/chola.html" />
+
+    <marker number="074D" code="CHOLA-D" name="Cholla Apartments Bldg. D"
+          lat="33.41862595" lon="-111.9251765"
+          imageurl="http://www.asu.edu/tour/tempe/photos/chola.jpg"
+          toururl="http://www.asu.edu/tour/tempe/chola.html" />
+
+    <marker number="074E" code="CHOLA-E" name="Cholla Apartments Bldg. E"
+          lat="33.4181912" lon="-111.9252166"
+          imageurl="http://www.asu.edu/tour/tempe/photos/chola.jpg"
+          toururl="http://www.asu.edu/tour/tempe/chola.html" />
+
+    <marker number="074F" code="CHOLA-F" name="Cholla Apartments Bldg. F"
+          lat="33.41801901" lon="-111.92482"
+          imageurl="http://www.asu.edu/tour/tempe/photos/chola.jpg"
+          toururl="http://www.asu.edu/tour/tempe/chola.html" />
+
+    <marker number="074G" code="CHOLA-G" name="Cholla Apartments Bldg. G"
+          lat="33.41824289" lon="-111.9245923"
+          imageurl="http://www.asu.edu/tour/tempe/photos/chola.jpg"
+          toururl="http://www.asu.edu/tour/tempe/chola.html" />
+
+    <marker number="074H" code="CHOLA-H" name="Cholla Apartments Bldg. H - Pump House"
+          lat="33.41846796" lon="-111.9248116"
+          imageurl="http://www.asu.edu/tour/tempe/photos/chola.jpg"
+          toururl="http://www.asu.edu/tour/tempe/chola.html" />
+
+    <marker number="135" code="CHPF" name="Combined Heat and Power Facility"
+          lat="33.41696121" lon="-111.9284108"  />
+
+    <marker number="160D" code="CHUPA" name="Chuparosa Hall (Hassayampa Academic Village)"
+          lat="33.414978" lon="-111.930004"  
+		  imageurl="http://www.asu.edu/tour/tempe/photos/chupa.jpg"
+          toururl="http://www.asu.edu/tour/tempe/chupa.html" />
+
+    <marker number="CMALL" code="CMALL" name="Cade Mall"
+          lat="33.418889" lon="-111.935"
+          imageurl="http://www.asu.edu/tour/tempe/photos/cmall.jpg"
+          toururl="http://www.asu.edu/tour/tempe/cmall.html" />
+
+    <marker number="65" code="COOR" name="Coor Hall"
+          lat="33.41935194" lon="-111.9372945"
+          imageurl="http://www.asu.edu/tour/tempe/photos/coor.jpg"
+          toururl="http://www.asu.edu/tour/tempe/coor.html" />
+
+    <marker number="16" code="COWDN" name="Cowden Family Resources Bldg."
+          lat="33.42103313" lon="-111.9355718"
+          imageurl="http://www.asu.edu/tour/tempe/photos/cowdn.jpg"
+          toururl="http://www.asu.edu/tour/tempe/cowdn.html" />
+
+    <marker number="15" code="CP" name="Central Plant"
+          lat="33.41908565" lon="-111.9335476"
+          imageurl="http://www.asu.edu/tour/tempe/photos/cp.jpg"
+          toururl="http://www.asu.edu/tour/tempe/cp.html" />
+
+    <marker number="136" code="CPCOM" name="Computing Commons"
+          lat="33.41783288" lon="-111.9323893"
+          imageurl="http://www.asu.edu/tour/tempe/photos/cpcom.jpg"
+          toururl="http://www.asu.edu/tour/tempe/cpcom.html" />
+
+    <marker number="137" code="CPS" name="Central Plant - South"
+          lat="33.41127046" lon="-111.9286599"  />
+
+    <marker number="059B" code="CSAC" name="Carson Student Athlete Center"
+          lat="33.42533907" lon="-111.9329314"
+          imageurl="http://www.asu.edu/tour/tempe/photos/csac.jpg"
+          toururl="http://www.asu.edu/tour/tempe/csac.html" />
+	
+	<marker number="130" code="CSB" name="Community Services Building"
+          lat="33.43982" lon="-111.94098" />
+
+    <marker number="R36" code="CTRPT" name="Centerpoint"
+          lat="33.423889" lon="-111.940833"  
+          imageurl="http://www.asu.edu/tour/tempe/photos/ctrpt.jpg"
+          toururl="http://www.asu.edu/tour/tempe/ctrpt.html"/>
+	
+	<marker number="173D" code="CWHAL" name="Cottonwood Hall"
+          lat="33.4150903" lon="-111.9269406"  
+          imageurl="http://barrett.asu.edu/Files/Images/NewBarrettAriel.jpg"
+          toururl="http://barrett.asu.edu/w-New_Campus_Updates_with_Live_Webcam-208.aspx" />
+
+    <marker number="L20" code="DAP" name="Desert Arboretum Park"
+          lat="33.42542822" lon="-111.9301521"  />
+
+	<marker number="44" code="DISCVRY" name="Discovery Hall (formerly Agriculture Bldg.)"
+          lat="33.41646838" lon="-111.9355245"
+          imageurl="http://www.asu.edu/tour/tempe/photos/discvry.jpg"
+          toururl="http://www.asu.edu/tour/tempe/discvry.html" />
+
+    <marker number="053A" code="ECA" name="Engineering Center A"
+          lat="33.41868303" lon="-111.9321981"
+          imageurl="http://www.asu.edu/tour/tempe/photos/eca.jpg"
+          toururl="http://www.asu.edu/tour/tempe/eca.html" />
+
+    <marker number="140" code="ECANX" name="Engineering Center Annex"
+          lat="33.41880544" lon="-111.9323304"
+          imageurl="http://www.asu.edu/tour/tempe/photos/eca.jpg"
+          toururl="http://www.asu.edu/tour/tempe/eca.html" />
+
+    <marker number="053B" code="ECB" name="Engineering Center B"
+          lat="33.41895763" lon="-111.9322008"
+          imageurl="http://www.asu.edu/tour/tempe/photos/ecb-g.jpg"
+          toururl="http://www.asu.edu/tour/tempe/ecb-g.html" />
+
+    <marker number="053C" code="ECC" name="Engineering Center C"
+          lat="33.41913622" lon="-111.9321867"
+          imageurl="http://www.asu.edu/tour/tempe/photos/ecb-g.jpg"
+          toururl="http://www.asu.edu/tour/tempe/ecb-g.html" />
+
+    <marker number="053D" code="ECD" name="Engineering Center D"
+          lat="33.41931476" lon="-111.9322035"
+          imageurl="http://www.asu.edu/tour/tempe/photos/ecb-g.jpg"
+          toururl="http://www.asu.edu/tour/tempe/ecb-g.html" />
+
+    <marker number="053E" code="ECE" name="Engineering Center E"
+          lat="33.41950004" lon="-111.9321524"
+          imageurl="http://www.asu.edu/tour/tempe/photos/ecb-g.jpg"
+          toururl="http://www.asu.edu/tour/tempe/ecb-g.html" />
+
+    <marker number="053F" code="ECF" name="Engineering Center F"
+          lat="33.41967231" lon="-111.9321919"
+          imageurl="http://www.asu.edu/tour/tempe/photos/ecb-g.jpg"
+          toururl="http://www.asu.edu/tour/tempe/ecb-g.html" />
+
+    <marker number="053G" code="ECG" name="Engineering Center G"
+          lat="33.42001416" lon="-111.9320884"
+          imageurl="http://www.asu.edu/tour/tempe/photos/ecb-g.jpg"
+          toururl="http://www.asu.edu/tour/tempe/ecb-g.html" />
+
+    <marker number="006A" code="ED" name="Farmer Education Bldg."
+          lat="33.41804932" lon="-111.9372421"
+          imageurl="http://www.asu.edu/tour/tempe/photos/ed.jpg"
+          toururl="http://www.asu.edu/tour/tempe/ed.html" />
+
+    <marker number="006B" code="EDB" name="Payne Hall"
+          lat="33.41887572" lon="-111.9372455"
+          imageurl="http://www.asu.edu/tour/tempe/photos/edb.jpg"
+          toururl="http://www.asu.edu/tour/tempe/edb.html" />
+
+    <marker number="006C" code="EDC" name="Education Lecture Hall"
+          lat="33.41790178" lon="-111.9378459"
+          imageurl="http://www.asu.edu/tour/tempe/photos/edc.jpg"
+          toururl="http://www.asu.edu/tour/tempe/edc.html" />
+
+    <marker number="63" code="ENGRC" name="Engineering Research Center"
+          lat="33.41979965" lon="-111.9314041"
+          imageurl="http://www.asu.edu/tour/tempe/photos/engrc.jpg"
+          toururl="http://www.asu.edu/tour/tempe/engrc.html" />
+
+    <marker number="48" code="FAC" name="Nelson Fine Arts Center"
+          lat="33.4186386" lon="-111.9383659"
+          imageurl="http://www.asu.edu/tour/tempe/photos/fac.jpg"
+          toururl="http://www.asu.edu/tour/tempe/fac.html" />
+
+    <marker number="FMALL" code="FMALL" name="Forest Mall"
+          lat="33.418889" lon="-111.936667"
+          imageurl="http://www.asu.edu/tour/tempe/photos/fmall.jpg"
+          toururl="http://www.asu.edu/tour/tempe/fmall.html" />
+
+    <marker number="X22" code="FMC" name="Forest Mall Cafe"
+          lat="33.41868779" lon="-111.936436"  />
+
+    <marker number="R11" code="FULTN" name="Fulton Center"
+          lat="33.42225846" lon="-111.934454"
+          imageurl="http://www.asu.edu/tour/tempe/photos/fultn.jpg"
+          toururl="http://www.asu.edu/tour/tempe/fultn.html" />
+
+    <marker number="1" code="GGMA" name="Grady Gammage Memorial Auditorium"
+          lat="33.41640609" lon="-111.9378282"
+          imageurl="http://www.asu.edu/tour/tempe/photos/ggma.jpg"
+          toururl="http://www.asu.edu/tour/tempe/ggma.html" />
+
+    <marker number="9" code="GHALL" name="Dixie Gammage Hall"
+          lat="33.41909558" lon="-111.9361803"
+          imageurl="http://www.asu.edu/tour/tempe/photos/ghall.jpg"
+          toururl="http://www.asu.edu/tour/tempe/ghall.html" />
+
+    <marker number="85" code="GWC" name="Goldwater Center for Science &amp; Engineering"
+          lat="33.42078305" lon="-111.930463"
+          imageurl="http://www.asu.edu/tour/tempe/photos/gwc.jpg"
+          toururl="http://www.asu.edu/tour/tempe/gwc.html" />
+
+    <marker number="14" code="HAYDN" name="Hayden Hall"
+          lat="33.41501088" lon="-111.9357504"
+          imageurl="http://www.asu.edu/tour/tempe/photos/haydn.jpg"
+          toururl="http://www.asu.edu/tour/tempe/haydn.html" />
+
+    <marker number="014E" code="HHE" name="Hayden Hall (East)"
+          lat="33.41521529" lon="-111.9353862"
+          imageurl="http://www.asu.edu/tour/tempe/photos/haydn.jpg"
+          toururl="http://www.asu.edu/tour/tempe/haydn.html" />
+
+    <marker number="014W" code="HHW" name="Hayden Hall (West)"
+          lat="33.41517663" lon="-111.9361146"
+          imageurl="http://www.asu.edu/tour/tempe/photos/haydn.jpg"
+          toururl="http://www.asu.edu/tour/tempe/haydn.html" />
+
+    <marker number="HMALL" code="HMALL" name="Hayden Mall"
+          lat="33.419722" lon="-111.934167"
+          imageurl="http://www.asu.edu/tour/tempe/photos/hmall.jpg"
+          toururl="http://www.asu.edu/tour/tempe/hmall.html" />
+	
+	<marker number="173H" code="HONHAL" name="Honors Hall"
+          lat="33.4156366" lon="-111.9273591"  
+          imageurl="http://barrett.asu.edu/Files/Images/NewBarrettAriel.jpg"
+          toururl="http://barrett.asu.edu/w-New_Campus_Updates_with_Live_Webcam-208.aspx" />
+
+    <marker number="25" code="HSB" name="Health Service Bldg."
+          lat="33.42129435" lon="-111.9330172"
+          imageurl="http://www.asu.edu/tour/tempe/photos/hsb.jpg"
+          toururl="http://www.asu.edu/tour/tempe/hsb.html" />
+
+    <marker number="128D" code="HVGF" name="Hobbs Varsity Gold Facility"
+          lat="33.42695617" lon="-111.9258403"  />
+
+	<marker number="2" code="INTDSA" name="Interdisciplinary A (formerly Administration Bldg. A-Wing)"
+          lat="33.41763497" lon="-111.9354891"
+          imageurl="http://www.asu.edu/tour/tempe/photos/intds.jpg"
+          toururl="http://www.asu.edu/tour/tempe/intds.html" />
+
+	<marker number="ADMA" code="ADMA" name="Administration Bldg. A-Wing (now called Interdisciplinary A)"
+          lat="33.41763497" lon="-111.9354891"
+          imageurl="http://www.asu.edu/tour/tempe/photos/intds.jpg"
+          toururl="http://www.asu.edu/tour/tempe/intds.html" />
+
+    <marker number="3" code="INTDSB" name="Interdisciplinary B (formerly Administration Bldg. B-Wing)"
+          lat="33.41723301" lon="-111.9356056"
+          imageurl="http://www.asu.edu/tour/tempe/photos/intds.jpg"
+          toururl="http://www.asu.edu/tour/tempe/intds.html" />
+
+    <marker number="ADMB" code="ADMB" name="Administration Bldg. B-Wing (now called Interdisciplinary B)"
+          lat="33.41723301" lon="-111.9356056"
+          imageurl="http://www.asu.edu/tour/tempe/photos/intds.jpg"
+          toururl="http://www.asu.edu/tour/tempe/intds.html" />
+		  
+    <marker number="175" code="IPF" name="ASU Indoor Practice Facility"
+          lat="33.425" lon="-111.925" />
+
+    <marker number="026A" code="IRISH-A" name="Irish Hall A (Academic Offices)"
+          lat="33.41567" lon="-111.9352414"
+          imageurl="http://www.asu.edu/tour/tempe/photos/irish.jpg"
+          toururl="http://www.asu.edu/tour/tempe/irish.html" />
+
+    <marker number="026B" code="IRISH-B" name="Irish Hall B (Northwest)"
+          lat="33.41591571" lon="-111.9355565"
+          imageurl="http://www.asu.edu/tour/tempe/photos/irish.jpg"
+          toururl="http://www.asu.edu/tour/tempe/irish.html" />
+
+    <marker number="026C" code="IRISH-C" name="Irish Hall C (Southwest)"
+          lat="33.41542429" lon="-111.9355562"
+          imageurl="http://www.asu.edu/tour/tempe/photos/irish.jpg"
+          toururl="http://www.asu.edu/tour/tempe/irish.html" />
+
+    <marker number="108" code="ISTB1" name="Interdisciplinary Science and Technology Bldg. I"
+          lat="33.41884925" lon="-111.9313908"
+          imageurl="http://www.asu.edu/tour/tempe/photos/istb1.jpg"
+          toururl="http://www.asu.edu/tour/tempe/istb1.html" />
+
+    <marker number="54" code="ISTB2" name="Interdisciplinary Science and Technology Bldg. II"
+          lat="33.42101392" lon="-111.9295867"
+          imageurl="http://www.asu.edu/tour/tempe/photos/istb2.jpg"
+          toururl="http://www.asu.edu/tour/tempe/istb2.html" />
+
+    <marker number="054A" code="ISTB2-A" name="Interdisciplinary Science and Technology Bldg. II Support"
+          lat="33.42131276" lon="-111.9294085"  />
+          
+	<marker number="" code="ISTB4" name="Interdisciplinary Science and Technology BLDG. IV (Under Construction)"
+          lat="33.417758" lon="-111.928539"  />
+
+    <marker number="72" code="ISTB5" name="Interdisciplinary Science and Technology BLDG. V"
+          lat="33.42079313" lon="-111.9310138"
+          imageurl="http://www.asu.edu/tour/tempe/photos/istb5.jpg"
+          toururl="http://www.asu.edu/tour/tempe/istb5.html" />
+	
+	<marker number="173E" code="JNHAL" name="Juniper Hall"
+          lat="33.4154306" lon="-111.9265329"  
+          imageurl="http://barrett.asu.edu/Files/Images/NewBarrettAriel.jpg"
+          toururl="http://barrett.asu.edu/w-New_Campus_Updates_with_Live_Webcam-208.aspx" />
+
+    <marker number="160C" code="JOBA" name="Jojoba Hall (Hassayampa Academic Village)"
+          lat="33.415039" lon="-111.929478"  
+		  imageurl="http://www.asu.edu/tour/tempe/photos/joba.jpg"
+          toururl="http://www.asu.edu/tour/tempe/joba.html" />
+
+    <marker number="128F" code="KARSN" name="Karsten Golf Course - North Restroom"
+          lat="33.4307265" lon="-111.9151739"
+          imageurl="http://www.asu.edu/tour/tempe/photos/karsten.jpg"
+          toururl="http://www.asu.edu/tour/tempe/karsten.html" />
+
+    <marker number="128E" code="KARSS" name="Karsten Golf Course - South Restroom"
+          lat="33.42828093" lon="-111.9170365"
+          imageurl="http://www.asu.edu/tour/tempe/photos/karsten.jpg"
+          toururl="http://www.asu.edu/tour/tempe/karsten.html" />
+
+    <marker number="L128" code="KARST" name="Karsten Golf Course"
+          lat="33.428785" lon="-111.923834"
+          imageurl="http://www.asu.edu/tour/tempe/photos/karsten.jpg"
+          toururl="http://www.asu.edu/tour/tempe/karsten.html" />
+
+    <marker number="128" code="KGC" name="Karsten Golf Course - Maintenance"
+          lat="33.42682478" lon="-111.9227912"
+          imageurl="http://www.asu.edu/tour/tempe/photos/karsten.jpg"
+          toururl="http://www.asu.edu/tour/tempe/karsten.html" />
+
+    <marker number="43" code="LAW" name="Armstrong Hall"
+          lat="33.41783682" lon="-111.9294398"
+          imageurl="http://www.asu.edu/tour/tempe/photos/law.jpg"
+          toururl="http://www.asu.edu/tour/tempe/law.html" />
+
+    <marker number="143" code="LAWLB" name="Ross-Blakley Law Library"
+          lat="33.41712386" lon="-111.9296423"
+          imageurl="http://www.asu.edu/tour/tempe/photos/lawlb.jpg"
+          toururl="http://www.asu.edu/tour/tempe/lawlb.html" />
+
+    <marker number="10" code="LIB" name="Hayden Library"
+          lat="33.41901329" lon="-111.9349228"
+          imageurl="http://www.asu.edu/tour/tempe/photos/lib.jpg"
+          toururl="http://www.asu.edu/tour/tempe/lib.html" />
+
+    <marker number="12" code="LL" name="Durham Language &amp; Literature Bldg."
+          lat="33.42092046" lon="-111.9345311"
+          imageurl="http://www.asu.edu/tour/tempe/photos/ll.jpg"
+          toururl="http://www.asu.edu/tour/tempe/ll.html" />
+
+    <marker number="056A" code="LSA" name="Life Sciences Center A"
+          lat="33.41987493" lon="-111.9331429"
+          imageurl="http://www.asu.edu/tour/tempe/photos/ls.jpg"
+          toururl="http://www.asu.edu/tour/tempe/ls.html" />
+
+    <marker number="056B" code="LSB" name="Life Sciences Center B-Animal Care"
+          lat="33.41961229" lon="-111.933369"
+          imageurl="http://www.asu.edu/tour/tempe/photos/ls.jpg"
+          toururl="http://www.asu.edu/tour/tempe/ls.html" />
+
+    <marker number="056C" code="LSC" name="Life Sciences Center C"
+          lat="33.41999318" lon="-111.9337497"
+          imageurl="http://www.asu.edu/tour/tempe/photos/lsc.jpg"
+          toururl="http://www.asu.edu/tour/tempe/lsc.html" />
+
+    <marker number="056D" code="LSD" name="Life Sciences Center D-Aquatic Terrestrial"
+          lat="33.41955149" lon="-111.9331762"
+          imageurl="http://www.asu.edu/tour/tempe/photos/ls.jpg"
+          toururl="http://www.asu.edu/tour/tempe/ls.html" />
+
+    <marker number="056E" code="LSE" name="Life Sciences Tower E-Wing"
+          lat="33.41951435" lon="-111.9338154"
+          imageurl="http://www.asu.edu/tour/tempe/photos/lse.jpg"
+          toururl="http://www.asu.edu/tour/tempe/lse.html" />
+
+    <marker number="27" code="LYC" name="Lyceum Theater"
+          lat="33.42052999" lon="-111.9363962"
+          imageurl="http://www.asu.edu/tour/tempe/photos/lyc.jpg"
+          toururl="http://www.asu.edu/tour/tempe/lyc.html" />
+
+    <marker number="32" code="MAIN" name="Old Main"
+          lat="33.42053743" lon="-111.9339851"
+          imageurl="http://www.asu.edu/tour/tempe/photos/main.jpg"
+          toururl="http://www.asu.edu/tour/tempe/main.html" />
+
+    <marker number="61" code="MANZH" name="Manzanita Hall"
+          lat="33.42246665" lon="-111.9300588"
+          imageurl="http://www.asu.edu/tour/tempe/photos/manzh.jpg"
+          toururl="http://www.asu.edu/tour/tempe/manzh.html" />
+
+    <marker number="103" code="MANZY" name="Manzy Cafe"
+          lat="33.42282881" lon="-111.9305869"  />
+
+    <marker number="038A" code="MB-A" name="Best Hall A"
+          lat="33.41590638" lon="-111.9361257"
+          imageurl="http://www.asu.edu/tour/tempe/photos/mb.jpg"
+          toururl="http://www.asu.edu/tour/tempe/mb.html" />
+
+    <marker number="038B" code="MB-B" name="Best Hall B"
+          lat="33.41541725" lon="-111.9361227"
+          imageurl="http://www.asu.edu/tour/tempe/photos/mb.jpg"
+          toururl="http://www.asu.edu/tour/tempe/mb.html" />
+
+    <marker number="038C" code="MB-C" name="Best Hall C"
+          lat="33.41566479" lon="-111.9360587"
+          imageurl="http://www.asu.edu/tour/tempe/photos/mb.jpg"
+          toururl="http://www.asu.edu/tour/tempe/mb.html" />
+
+    <marker number="34" code="MCENT" name="Matthews Center"
+          lat="33.41992865" lon="-111.9354696"
+          imageurl="http://www.asu.edu/tour/tempe/photos/mcent.jpg"
+          toururl="http://www.asu.edu/tour/tempe/mcent.html" />
+
+    <marker number="28" code="MCL" name="McClintock Hall"
+          lat="33.41969739" lon="-111.9360867"
+          imageurl="http://www.asu.edu/tour/tempe/photos/mcl.jpg"
+          toururl="http://www.asu.edu/tour/tempe/mcl.html" />
+
+    <marker number="33" code="MHALL" name="Matthews Hall"
+          lat="33.42011058" lon="-111.9361156"
+          imageurl="http://www.asu.edu/tour/tempe/photos/mhall.jpg"
+          toururl="http://www.asu.edu/tour/tempe/mhall.html" />
+
+    <marker number="MMALL" code="MMALL" name="McAllister Mall"
+          lat="33.419722" lon="-111.93"
+          imageurl="http://www.asu.edu/tour/tempe/photos/mmall.jpg"
+          toururl="http://www.asu.edu/tour/tempe/mmall.html" />
+
+    <marker number="37" code="MOEUR" name="Moeur Bldg."
+          lat="33.41794045" lon="-111.9361681"
+          imageurl="http://www.asu.edu/tour/tempe/photos/moeur.jpg"
+          toururl="http://www.asu.edu/tour/tempe/moeur.html" />
+
+    <marker number="131" code="MSB" name="Material Services Bldg."
+          lat="33.41067043" lon="-111.9255829"  />
+
+	<marker number="163A" code="MSHAL" name="Mesquite Hall (Hassayampa Academic Village)"
+          lat="33.416254" lon="-111.928808"
+          imageurl="http://www.asu.edu/tour/tempe/photos/mshal.jpg"
+          toururl="http://www.asu.edu/tour/tempe/mshal.html" />
+
+    <marker number="35" code="MU" name="Memorial Union"
+          lat="33.41769227" lon="-111.9343513"
+          imageurl="http://www.asu.edu/tour/tempe/photos/mu.jpg"
+          toururl="http://www.asu.edu/tour/tempe/mu.html" />
+
+    <marker number="21" code="MUR" name="Murdock Lecture Hall"
+          lat="33.41862875" lon="-111.9331408"
+          imageurl="http://www.asu.edu/tour/tempe/photos/mur.jpg"
+          toururl="http://www.asu.edu/tour/tempe/mur.html" />
+
+    <marker number="84" code="MUSIC" name="Music Bldg."
+          lat="33.4180363" lon="-111.9390149"
+          imageurl="http://www.asu.edu/tour/tempe/photos/music.jpg"
+          toururl="http://www.asu.edu/tour/tempe/music.html" />
+
+    <marker number="160A" code="MVHAL" name="Mohave Hall (Hassayampa Academic Village)"
+          lat="33.415801" lon="-111.9296" 
+		  imageurl="http://www.asu.edu/tour/tempe/photos/hassa.jpg"
+          toururl="http://www.asu.edu/tour/tempe/mvhal.html" />
+
+    <marker number="86" code="NEEB" name="Neeb Hall"
+          lat="33.42031369" lon="-111.9368952"
+          imageurl="http://www.asu.edu/tour/tempe/photos/neeb.jpg"
+          toururl="http://www.asu.edu/tour/tempe/neeb.html" />
+
+    <marker number="47" code="NOBLE" name="Noble Science Library"
+          lat="33.41992925" lon="-111.9306466"
+          imageurl="http://www.asu.edu/tour/tempe/photos/noble.jpg"
+          toururl="http://www.asu.edu/tour/tempe/noble.html" />
+
+    <marker number="099A" code="OCOT-A" name="Ocotillo Hall A"
+          lat="33.41440457" lon="-111.9325173"
+          imageurl="http://www.asu.edu/tour/tempe/photos/ocot.jpg"
+          toururl="http://www.asu.edu/tour/tempe/ocot.html" />
+
+    <marker number="099B" code="OCOT-B" name="Ocotillo Hall B"
+          lat="33.41440772" lon="-111.9321565"
+          imageurl="http://www.asu.edu/tour/tempe/photos/ocot.jpg"
+          toururl="http://www.asu.edu/tour/tempe/ocot.html" />
+
+    <marker number="099C" code="OCOT-C" name="Ocotillo Hall C"
+          lat="33.41439739" lon="-111.9317212"
+          imageurl="http://www.asu.edu/tour/tempe/photos/ocot.jpg"
+          toururl="http://www.asu.edu/tour/tempe/ocot.html" />
+
+    <marker number="099D" code="OCOT-D" name="Ocotillo Hall D"
+          lat="33.41441505" lon="-111.9312887"
+          imageurl="http://www.asu.edu/tour/tempe/photos/ocot.jpg"
+          toururl="http://www.asu.edu/tour/tempe/ocot.html" />
+
+    <marker number="099E" code="OCOT-E" name="Ocotillo Hall E"
+          lat="33.41441946" lon="-111.9309284"
+          imageurl="http://www.asu.edu/tour/tempe/photos/ocot.jpg"
+          toururl="http://www.asu.edu/tour/tempe/ocot.html" />
+
+    <marker number="099F" code="OCOT(F)" name="Ocotillo Hall Equipment Bldg. F"
+          lat="33.41428538" lon="-111.9313937"
+          imageurl="http://www.asu.edu/tour/tempe/photos/ocot.jpg"
+          toururl="http://www.asu.edu/tour/tempe/ocot.html" />
+
+	<marker number="164" code="OCSS" name="Off-Campus Student Services"
+          lat="33.41937985894166" lon="-111.92610383033752" 
+          imageurl="http://www.asu.edu/tour/tempe/photos/ocss.jpg"
+          toururl="http://www.asu.edu/tour/tempe/ocss.html" />
+
+	<marker number="OMALL" code="OMALL" name="Orange Mall"
+          lat="33.418333" lon="-111.93"
+          imageurl="http://www.asu.edu/tour/tempe/photos/omall.jpg"
+          toururl="http://www.asu.edu/tour/tempe/omall.html" />
+	  
+    <marker number="151" code="PABLO" name="San Pablo Residence Hall"
+          lat="33.42285799" lon="-111.9312999"
+          imageurl="http://www.asu.edu/tour/tempe/photos/pablo.jpg"
+          toururl="http://www.asu.edu/tour/tempe/pablo.html" />
+
+    <marker number="151A" code="PABLO-A" name="San Pablo Classroom"
+          lat="33.42243895" lon="-111.9313393"
+          imageurl="http://www.asu.edu/tour/tempe/photos/pablo.jpg"
+          toururl="http://www.asu.edu/tour/tempe/pablo.html" />
+
+    <marker number="PALMWALK" code="PALMWALK" name="Palm Walk"
+          lat="33.418611" lon="-111.932778"
+          imageurl="http://www.asu.edu/tour/tempe/photos/palmwalk.jpg"
+          toururl="http://www.asu.edu/tour/tempe/palmwalk.html" />
+
+    <marker number="66" code="PBS" name="Packard Baseball Stadium"
+          lat="33.42779522" lon="-111.9277925"
+          imageurl="http://www.asu.edu/tour/tempe/photos/pbs.jpg"
+          toururl="http://www.asu.edu/tour/tempe/pbs.html" />
+
+    <marker number="066A" code="PBS-A" name="Tickets/Concessions at Packard Stadium"
+          lat="33.42728733" lon="-111.9280935"
+          imageurl="http://www.asu.edu/tour/tempe/photos/pbs.jpg"
+          toururl="http://www.asu.edu/tour/tempe/pbs.html" />
+
+    <marker number="41" code="PEBE" name="Physical Education Bldg. East"
+          lat="33.41790375" lon="-111.9307836"
+          imageurl="http://www.asu.edu/tour/tempe/photos/pebe.jpg"
+          toururl="http://www.asu.edu/tour/tempe/pebe.html" />
+
+    <marker number="36" code="PEBW" name="Physical Education Bldg. West"
+          lat="33.41780274" lon="-111.9330983"
+          imageurl="http://www.asu.edu/tour/tempe/photos/pebw.jpg"
+          toururl="http://www.asu.edu/tour/tempe/pebw.html" />
+
+    <marker number="RP01" code="PS FULTON CTR" name="Fulton Center Parking Structure (Visitor/Permit)"
+          lat="33.42300388" lon="-111.9342977"  />
+
+    <marker number="P01" code="PS APACHE BLVD" name="Apache Boulevard Parking Structure (Visitor/Permit)"
+          lat="33.41548332" lon="-111.9340223"  />
+
+    <marker number="P02" code="PS TYLER ST" name="Tyler Street Parking Structure (Permit)"
+          lat="33.42071378" lon="-111.9282408"  />
+
+    <marker number="P03" code="PS TENTH ST" name="10th Street Parking Structure (Permit)"
+          lat="33.42018776" lon="-111.9377659"  />
+
+    <marker number="P04" code="PS RURAL RD" name="Rural Road Parking Structure (Visitor/Permit)"
+          lat="33.41765651" lon="-111.9272238"  />
+
+    <marker number="P05" code="PS STADIUM" name="Stadium Parking Structure (Permit)"
+          lat="33.42411434" lon="-111.932914"  />
+
+    <marker number="P06" code="PS UNIV TOWERS" name="University Towers Parking Structure (Permit)"
+          lat="33.4247223" lon="-111.9360925"  />
+
+    <marker number="P07" code="PS PACKARD DR" name="Packard Drive South Parking Structure (Permit)"
+          lat="33.42548101" lon="-111.9287102"  />
+
+    <marker number="057A" code="PSA" name="Bateman Physical Sciences Center A Wing/Wexler Hall"
+          lat="33.42056937" lon="-111.9321629"
+          imageurl="http://www.asu.edu/tour/tempe/photos/psa.jpg"
+          toururl="http://www.asu.edu/tour/tempe/psa.html" />
+
+    <marker number="057B" code="PSB" name="Bateman Physical Sciences Center B Wing"
+          lat="33.42084989" lon="-111.9321651"
+          imageurl="http://www.asu.edu/tour/tempe/photos/ps.jpg"
+          toururl="http://www.asu.edu/tour/tempe/ps.html" />
+
+    <marker number="057C" code="PSC" name="Bateman Physical Sciences Center C Wing"
+          lat="33.42114335" lon="-111.9321568"
+          imageurl="http://www.asu.edu/tour/tempe/photos/ps.jpg"
+          toururl="http://www.asu.edu/tour/tempe/ps.html" />
+
+    <marker number="057D" code="PSD" name="Bateman Physical Sciences Center D Wing"
+          lat="33.42137505" lon="-111.9321356"
+          imageurl="http://www.asu.edu/tour/tempe/photos/ps.jpg"
+          toururl="http://www.asu.edu/tour/tempe/ps.html" />
+
+    <marker number="057E" code="PSE" name="Bateman Physical Sciences Center E Wing"
+          lat="33.4216237" lon="-111.9324334"
+          imageurl="http://www.asu.edu/tour/tempe/photos/ps.jpg"
+          toururl="http://www.asu.edu/tour/tempe/ps.html" />
+
+    <marker number="057F" code="PSF" name="Bateman Physical Sciences Center F Wing"
+          lat="33.42095433" lon="-111.9313937"
+          imageurl="http://www.asu.edu/tour/tempe/photos/psf.jpg"
+          toururl="http://www.asu.edu/tour/tempe/psf.html" />
+
+    <marker number="057G" code="PSG" name="Bateman Chemical Storage Bldg. (G)"
+          lat="33.42138274" lon="-111.9315017"
+          imageurl="http://www.asu.edu/tour/tempe/photos/ps.jpg"
+          toururl="http://www.asu.edu/tour/tempe/ps.html" />
+
+    <marker number="057H" code="PSH" name="Bateman Physical Sciences Center H Wing"
+          lat="33.42164445" lon="-111.931663"
+          imageurl="http://www.asu.edu/tour/tempe/photos/ps.jpg"
+          toururl="http://www.asu.edu/tour/tempe/ps.html" />
+
+    <marker number="13" code="PSY" name="Psychology Bldg."
+          lat="33.41987699" lon="-111.9295489"
+          imageurl="http://www.asu.edu/tour/tempe/photos/psy.jpg"
+          toururl="http://www.asu.edu/tour/tempe/psy.html" />
+
+    <marker number="031A" code="PSYN" name="Psychology North"
+          lat="33.42063143" lon="-111.9295537"
+          imageurl="http://www.asu.edu/tour/tempe/photos/psyn.jpg"
+          toururl="http://www.asu.edu/tour/tempe/psyn.html" />
+
+    <marker number="051F" code="PVE" name="Palo Verde East"
+          lat="33.42249344" lon="-111.9320397"
+          imageurl="http://www.asu.edu/tour/tempe/photos/pve.jpg"
+          toururl="http://www.asu.edu/tour/tempe/pve.html" />
+
+    <marker number="051A" code="PVM-A" name="Palo Verde Main A"
+          lat="33.4229821" lon="-111.9333764"
+          imageurl="http://www.asu.edu/tour/tempe/photos/pvm.jpg"
+          toururl="http://www.asu.edu/tour/tempe/pvm.html" />
+
+    <marker number="051B" code="PVM-B" name="Palo Verde Main B"
+          lat="33.42326041" lon="-111.933395"
+          imageurl="http://www.asu.edu/tour/tempe/photos/pvm.jpg"
+          toururl="http://www.asu.edu/tour/tempe/pvm.html" />
+
+    <marker number="051C" code="PVM-C" name="Palo Verde Main C"
+          lat="33.42298918" lon="-111.9322569"
+          imageurl="http://www.asu.edu/tour/tempe/photos/pvm.jpg"
+          toururl="http://www.asu.edu/tour/tempe/pvm.html" />
+
+    <marker number="051D" code="PVM-D" name="Palo Verde Main D"
+          lat="33.42327078" lon="-111.9322451"
+          imageurl="http://www.asu.edu/tour/tempe/photos/pvm.jpg"
+          toururl="http://www.asu.edu/tour/tempe/pvm.html" />
+
+    <marker number="051E" code="PVM-E" name="Palo Verde Main - Admin &amp; Cafeteria"
+          lat="33.42316522" lon="-111.9328197"
+          imageurl="http://www.asu.edu/tour/tempe/photos/pvm.jpg"
+          toururl="http://www.asu.edu/tour/tempe/pvm.html" />
+
+    <marker number="051G" code="PVW-G" name="Palo Verde WEST"
+          lat="33.42247901" lon="-111.9335876"
+          imageurl="http://www.asu.edu/tour/tempe/photos/pvw.jpg"
+          toururl="http://www.asu.edu/tour/tempe/pvw.html" />
+
+    <marker number="42" code="PWH" name="Piper Writers House"
+          lat="33.42053317" lon="-111.9330312"
+          imageurl="http://www.asu.edu/tour/tempe/photos/pwh.jpg"
+          toururl="http://www.asu.edu/tour/tempe/pwh.html" />
+
+    <marker number="096A" code="RFPF" name="Robson Family Player Facility"
+          lat="33.42481799" lon="-111.9276544"
+		  imageurl="http://www.asu.edu/tour/tempe/photos/rfpf.jpg"
+          toururl="http://www.asu.edu/tour/tempe/rfpf.html" />
+
+    <marker number="X03" code="RRO" name="1711 S. Rural Rd. - T-Frame E"
+          lat="33.41060042" lon="-111.9245892"  />
+
+    <marker number="132" code="RROB" name="1711 S. Rural Rd. - Bldg. B"
+          lat="33.41061555" lon="-111.9245283"  />
+
+    <marker number="133" code="RROC" name="1711 S. Rural Rd. - Bldg. D"
+          lat="33.41024871" lon="-111.9246669"  />
+
+    <marker number="X02" code="RROD" name="1711 S. Rural Rd. - T-Frame C"
+          lat="33.41042522" lon="-111.924706"  />
+
+    <marker number="18" code="RSS1" name="Research Support Services 1"
+          lat="33.42154271" lon="-111.9286615"  />
+
+    <marker number="126" code="RSS2" name="Research Support Services 2"
+          lat="33.42166037" lon="-111.9283376"  />
+
+    <marker number="603" code="RSS3" name="Research Support Services 3"
+          lat="33.42151533" lon="-111.9281084"  />
+
+    <marker number="605" code="RSS4" name="Research Support Services 4"
+          lat="33.42141283" lon="-111.9281021"  />
+
+    <marker number="144" code="RSS5" name="Research Support Services 5"
+          lat="33.42130848" lon="-111.9281088"  />
+	
+	<marker number="173F" code="RWHAL" name="Rosewood Hall"
+          lat="33.4161649" lon="-111.9265437"  
+          imageurl="http://barrett.asu.edu/Files/Images/NewBarrettAriel.jpg"
+          toururl="http://barrett.asu.edu/w-New_Campus_Updates_with_Live_Webcam-208.aspx" />
+
+    <marker number="128C" code="SAC" name="Sun Angel Clubhouse"
+          lat="33.42794992" lon="-111.9221592" 
+	    imageurl="http://www.asu.edu/tour/tempe/photos/sac.jpg"
+          toururl="http://www.asu.edu/tour/tempe/sac.html" />
+	
+    <marker number="139" code="SCD" name="Sonora Center"
+          lat="33.41196704" lon="-111.9275201"
+          imageurl="http://www.asu.edu/tour/tempe/photos/scd.jpg"
+          toururl="http://www.asu.edu/tour/tempe/scd.html" />
+
+    <marker number="55" code="SCOB" name="Schwada Classroom Office Bldg."
+          lat="33.41898759" lon="-111.9305838"
+          imageurl="http://www.asu.edu/tour/tempe/photos/scob.jpg"
+          toururl="http://www.asu.edu/tour/tempe/scob.html" />
+
+    <marker number="138" code="SCRED" name="Residence Education Center"
+          lat="33.41270219" lon="-111.9280231"
+          imageurl="http://www.asu.edu/tour/tempe/photos/scd.jpg"
+          toururl="http://www.asu.edu/tour/tempe/scd.html" />
+
+    <marker number="134" code="SDSN" name="Sun Devil Stadium-North Locker Bldg."
+          lat="33.42823969" lon="-111.9323775"
+          imageurl="http://www.asu.edu/tour/tempe/photos/stad.jpg"
+          toururl="http://www.asu.edu/tour/tempe/stad.html" />
+		  
+	<marker number="173A" code="SGHAL" name="Sage Hall"
+          lat="33.4151798" lon="-111.928367"  
+          imageurl="http://barrett.asu.edu/Files/Images/NewBarrettAriel.jpg"
+          toururl="http://barrett.asu.edu/w-New_Campus_Updates_with_Live_Webcam-208.aspx" />
+
+	<marker number="4" code="SHESC" name="School of Human Evolution and Social Change"
+          lat="33.4205738" lon="-111.9354868"
+          imageurl="http://www.asu.edu/tour/tempe/photos/shesc.jpg"
+          toururl="http://www.asu.edu/tour/tempe/shesc.html" />
+
+    <marker number="154" code="SOCER" name="Soccer Stadium"
+          lat="33.42455664" lon="-111.9224046"
+          imageurl="http://www.asu.edu/tour/tempe/photos/socer.jpg"
+          toururl="http://www.asu.edu/tour/tempe/socer.html" />
+
+    <marker number="46" code="SRC" name="Student Recreation Complex"
+          lat="33.41544786" lon="-111.9324256"
+          imageurl="http://www.asu.edu/tour/tempe/photos/src.jpg"
+          toururl="http://www.asu.edu/tour/tempe/src.html" />
+
+    <marker number="5" code="SS" name="Social Sciences Bldg."
+          lat="33.41992354" lon="-111.9344811"
+          imageurl="http://www.asu.edu/tour/tempe/photos/ss.jpg"
+          toururl="http://www.asu.edu/tour/tempe/ss.html" />
+
+    <marker number="45" code="SSV" name="Student Services Bldg."
+          lat="33.41697868" lon="-111.9362327"
+          imageurl="http://www.asu.edu/tour/tempe/photos/ssv.jpg"
+          toururl="http://www.asu.edu/tour/tempe/ssv.html" />
+
+    <marker number="59" code="STAD" name="Sun Devil Stadium"
+          lat="33.4263887" lon="-111.9325526"
+          imageurl="http://www.asu.edu/tour/tempe/photos/stad.jpg"
+          toururl="http://www.asu.edu/tour/tempe/stad.html" />
+
+    <marker number="059D" code="STAD-D" name="Sun Devil Stadium Suites"
+          lat="33.42664062" lon="-111.9336194"
+          imageurl="http://www.asu.edu/tour/tempe/photos/stad.jpg"
+          toururl="http://www.asu.edu/tour/tempe/stad.html" />
+
+    <marker number="024A" code="STAUF-A" name="Stauffer Communication Arts A"
+          lat="33.41987479" lon="-111.9368505"
+          imageurl="http://www.asu.edu/tour/tempe/photos/stauf.jpg"
+          toururl="http://www.asu.edu/tour/tempe/stauf.html" />
+
+    <marker number="024B" code="STAUF-B" name="Stauffer Communication Arts B"
+          lat="33.41982597" lon="-111.9372392"
+          imageurl="http://www.asu.edu/tour/tempe/photos/stauf.jpg"
+          toururl="http://www.asu.edu/tour/tempe/stauf.html" />
+
+	<marker number="TMALL" code="TMALL" name="Tyler Mall"
+          lat="33.420278" lon="-111.933333"
+          imageurl="http://www.asu.edu/tour/tempe/photos/tmall.jpg"
+          toururl="http://www.asu.edu/tour/tempe/tmall.html" />
+
+    <marker number="095A" code="TMPCT-A" name="Tempe Center"
+          lat="33.419684" lon="-111.939074"
+          imageurl="http://www.asu.edu/tour/tempe/photos/tmpct.jpg"
+          toururl="http://www.asu.edu/tour/tempe/tmpct.html" />
+
+    <marker number="095E" code="TMPCT-E" name="Ceramics Research Center"
+          lat="33.41941105" lon="-111.9394029"
+          imageurl="http://www.asu.edu/tour/tempe/photos/cera.jpg"
+          toururl="http://www.asu.edu/tour/tempe/cera.html" />
+
+    <marker number="023A" code="TOWER-A" name="Tower Center Bldg. A"
+          lat="33.42156431" lon="-111.9375668"
+          imageurl="http://www.asu.edu/tour/tempe/photos/tower.jpg"
+          toururl="http://www.asu.edu/tour/tempe/tower.html" />
+
+    <marker number="023B" code="TOWER-B" name="Tower Center Bldg. B"
+          lat="33.42164863" lon="-111.9378289"
+          imageurl="http://www.asu.edu/tour/tempe/photos/tower.jpg"
+          toururl="http://www.asu.edu/tour/tempe/tower.html" />
+
+    <marker number="98" code="TRACK" name="Sun Angel Stadium"
+          lat="33.42604006" lon="-111.9280063"
+          imageurl="http://www.asu.edu/tour/tempe/photos/track.jpg"
+          toururl="http://www.asu.edu/tour/tempe/track.html" />
+
+    <marker number="98" code="TSB" name="Temporary Student Business Services"
+          lat="33.4175" lon="-111.933611" />
+
+    <marker number="751" code="TYLER" name="Tyler Mall Cantina"
+          lat="33.4204567" lon="-111.9318534"  />
+
+    <marker number="30" code="UASB" name="Undergraduate Academic Services"
+          lat="33.4186345" lon="-111.9337113"
+          imageurl="http://www.asu.edu/tour/tempe/photos/uasb.jpg"
+          toururl="http://www.asu.edu/tour/tempe/uasb.html" />
+
+    <marker number="R42" code="UCNTRA" name="University Center Bldg. A"
+          lat="33.4231174" lon="-111.9221857"  />
+
+    <marker number="R42" code="UCNTRB" name="University Center Bldg. B"
+          lat="33.4231498" lon="-111.9212543"  />
+
+    <marker number="11" code="UCLUB" name="University Club"
+          lat="33.42095106" lon="-111.9335417"
+          imageurl="http://www.asu.edu/tour/tempe/photos/uclub.jpg"
+          toururl="http://www.asu.edu/tour/tempe/uclub.html" />
+
+    <marker number="142" code="UNIVT" name="University Towers"
+          lat="33.42514506" lon="-111.9359574"
+          imageurl="http://www.asu.edu/tour/tempe/photos/univt.jpg"
+          toururl="http://www.asu.edu/tour/tempe/univt.html" />
+
+    <marker number="150" code="USB" name="University Services"
+          lat="33.41173206" lon="-111.9254039"
+          imageurl="http://www.asu.edu/tour/tempe/photos/usb.jpg"
+          toururl="http://www.asu.edu/tour/tempe/usb.html" />
+
+    <marker number="77" code="USE" name="Urban Systems Engineering"
+          lat="33.4215604" lon="-111.9295196"
+          imageurl="http://www.asu.edu/tour/tempe/photos/use.jpg"
+          toururl="http://www.asu.edu/tour/tempe/use.html" />
+
+	<marker number="163B" code="VBHAL" name="Verbena Hall (Hassayampa Academic Village)" 
+          lat="33.416441" lon="-111.928407"  
+          imageurl="http://www.asu.edu/tour/tempe/photos/vbhal.jpg"
+          toururl="http://www.asu.edu/tour/tempe/vbhal.html" />
+
+	<!--
+    <marker number="19" code="UVCMN" name="UNIVERSITY COMMONS BLDG. (VISITOR INFORMATION CENTER)"
+          lat="33.422953" lon="-111.935813"
+          imageurl="http://www.asu.edu/tour/tempe/photos/uvcmn.jpg"
+          toururl="http://www.asu.edu/tour/tempe/uvcmn.html" />
+  	-->
+
+    <marker number="170A" code="VDSI" name="Vista Del Sol Tower I"
+          lat="33.414230" lon="-111.930255"
+          imageurl="http://www.asu.edu/tour/tempe/photos/vds.jpg"
+          toururl="http://www.asu.edu/tour/tempe/vds.html" />
+
+    <marker number="170B" code="VDSB" name="Vista Del Sol Tower B"
+          lat="33.412457" lon="-111.929622"
+          imageurl="http://www.asu.edu/tour/tempe/photos/vds.jpg"
+          toururl="http://www.asu.edu/tour/tempe/vds.html" />
+
+    <marker number="170C" code="VDSC" name="Vista Del Sol Bldg. C"
+          lat="33.411839" lon="-111.929622"
+          imageurl="http://www.asu.edu/tour/tempe/photos/vds.jpg"
+          toururl="http://www.asu.edu/tour/tempe/vds.html" />
+
+    <marker number="170D" code="VDSD" name="Vista Del Sol Bldg. D"
+          lat="33.411866" lon="-111.930245"
+          imageurl="http://www.asu.edu/tour/tempe/photos/vds.jpg"
+          toururl="http://www.asu.edu/tour/tempe/vds.html" />
+
+    <marker number="170E" code="VDSE" name="Vista Del Sol Bldg. E"
+          lat="33.412457" lon="-111.930191"
+          imageurl="http://www.asu.edu/tour/tempe/photos/vds.jpg"
+          toururl="http://www.asu.edu/tour/tempe/vds.html" />
+
+    <marker number="170F" code="VDSF" name="Vista Del Sol Bldg. F"
+          lat="33.413075" lon="-111.930105"
+          imageurl="http://www.asu.edu/tour/tempe/photos/vds.jpg"
+          toururl="http://www.asu.edu/tour/tempe/vds.html" />
+
+    <marker number="170G" code="VDSG" name="Vista Del Sol Bldg. G"
+          lat="33.413630" lon="-111.930255"
+          imageurl="http://www.asu.edu/tour/tempe/photos/vds.jpg"
+          toururl="http://www.asu.edu/tour/tempe/vds.html" />
+
+    <marker number="170H" code="VDSH" name="Vista Del Sol Bldg. H"
+          lat="33.413666" lon="-111.929612"
+          imageurl="http://www.asu.edu/tour/tempe/photos/vds.jpg"
+          toururl="http://www.asu.edu/tour/tempe/vds.html" />
+
+    <marker number="170J" code="VDSJ" name="Vista Del Sol Bldg. J"
+          lat="33.414266" lon="-111.929569"
+          imageurl="http://www.asu.edu/tour/tempe/photos/vds.jpg"
+          toururl="http://www.asu.edu/tour/tempe/vds.html" />
+
+    <marker number="170K" code="VDSK" name="Vista Del Sol Bldg. K"
+          lat="33.414257" lon="-111.928936"
+          imageurl="http://www.asu.edu/tour/tempe/photos/vds.jpg"
+          toururl="http://www.asu.edu/tour/tempe/vds.html" />
+
+    <marker number="171" code="VDSCC" name="Vista Del Sol Community Center"
+          lat="33.413102" lon="-111.929150"
+          imageurl="http://www.asu.edu/tour/tempe/photos/vds.jpg"
+          toururl="http://www.asu.edu/tour/tempe/vds.html" />
+
+    <marker number="RP03" code="VDSPS" name="Vista Del Sol Parking Structure"
+          lat="33.412170" lon="-111.928936"
+          imageurl="http://www.asu.edu/tour/tempe/photos/vds.jpg"
+          toururl="http://www.asu.edu/tour/tempe/vds.html" />
+
+    <marker number="172" code="VDSCB" name="Vista Del Sol Cabana"
+          lat="33.412778" lon="-111.929444"
+          imageurl="http://www.asu.edu/tour/tempe/photos/vds.jpg"
+          toururl="http://www.asu.edu/tour/tempe/vds.html" />
+
+    <marker number="X30" code="VDSJZ" name="Vista Del Sol Jacuzzi"
+          lat="33.413056" lon="-111.928889"
+          imageurl="http://www.asu.edu/tour/tempe/photos/vds.jpg"
+          toururl="http://www.asu.edu/tour/tempe/vds.html" />
+
+    <marker number="X31" code="VDSGZ" name="Vista Del Sol Gazebo"
+          lat="33.413056" lon="-111.928889"
+          imageurl="http://www.asu.edu/tour/tempe/photos/vds.jpg"
+          toururl="http://www.asu.edu/tour/tempe/vds.html" />
+
+    <marker number="X33" code="VDSDM" name="Vista Del Sol Dome"
+          lat="33.413836" lon="-111.928914"
+          imageurl="http://www.asu.edu/tour/tempe/photos/vds.jpg"
+          toururl="http://www.asu.edu/tour/tempe/vds.html" />
+          
+    <marker number="Temp1" code="Temp1" name="Villas at Vista Del Sol (Under Construction)"
+          lat="33.414409" lon="-111.931779"  />
+
+    <marker number="69" code="WFA" name="Wells Fargo Arena"
+          lat="33.42450232" lon="-111.9309939"
+          imageurl="http://www.asu.edu/tour/tempe/photos/wfa.jpg"
+          toururl="http://www.asu.edu/tour/tempe/wfa.html" />
+          
+	<marker number="7" code="WGHL" name="Wrigley Hall"
+          lat="33.4215031" lon="-111.9353142"
+          imageurl="http://www.asu.edu/tour/tempe/photos/gios.jpg"
+          toururl="http://www.asu.edu/tour/tempe/gios.html" />
+
+    <marker number="166" code="WGTF" name="Women's Gymnastics Training Facility"
+          lat="33.426225" lon="-111.923275"  
+          imageurl="http://www.asu.edu/tour/tempe/photos/wgtf.jpg"
+          toururl="http://www.asu.edu/tour/tempe/wgtf.html"/>
+
+    <marker number="49" code="WHALL" name="West Hall"
+          lat="33.41909821" lon="-111.9358119"
+          imageurl="http://www.asu.edu/tour/tempe/photos/whall.jpg"
+          toururl="http://www.asu.edu/tour/tempe/whall.html" />
+	
+	<marker number="173g" code="WILOHAL" name="Willow Hall"
+          lat="33.41603959" lon="-111.9269514"  
+          imageurl="http://barrett.asu.edu/Files/Images/NewBarrettAriel.jpg"
+          toururl="http://barrett.asu.edu/w-New_Campus_Updates_with_Live_Webcam-208.aspx" />
+
+    <marker number="50" code="WILSN" name="Wilson Hall"
+          lat="33.41851718" lon="-111.9359507"
+          imageurl="http://www.asu.edu/tour/tempe/photos/wilsn.jpg"
+          toururl="http://www.asu.edu/tour/tempe/wilsn.html" />
+
+    <marker number="96" code="WTC" name="Whiteman Tennis Center"
+          lat="33.42526198" lon="-111.9276063"
+          imageurl="http://www.asu.edu/tour/tempe/photos/wtc.jpg"
+          toururl="http://www.asu.edu/tour/tempe/wtc.html" />
+
+    <marker number="156" code="WTF" name="Wrestling Training Facility"
+          lat="33.42652124" lon="-111.9236897"  
+          imageurl="http://www.asu.edu/tour/tempe/photos/wtf.jpg"
+          toururl="http://www.asu.edu/tour/tempe/wtf.html"/>
+
+    <marker number="174" code="WUC" name="Weatherup Center"
+          lat="33.424722" lon="-111.923611"  />
+          
+    <marker number="Temp2" code="Temp2" name="X-Square"
+          lat="33.420696" lon="-111.936950"  />
+		  
+	<marker number="SHUTTLE" code="ASUSHUTTLE" name="ASU Intercampus Shuttle Stop"
+          lat="33.416111" lon="-111.936389" 
+		  imageurl="http://www.asu.edu/asuwebrw/asusite/map/images/shuttle.jpg"
+          toururl="http://uabf.asu.edu/parking_commuter_shuttle"/>
+		  
+	<marker number="LIGHTRAIL1" code="LIGHTRAIL1" name="Valley Metro Light Rail Stop"
+          lat="33.426111" lon="-111.935833" 
+		  imageurl="http://www.asu.edu/asuwebrw/asusite/map/images/lightrail.jpg"
+          toururl="http://uabf.asu.edu/parking_commuter_lightrail"/>
+		  
+	<marker number="LIGHTRAIL2" code="LIGHTRAIL2" name="Valley Metro Light Rail Stop"
+          lat="33.420833" lon="-111.926944" 
+		  imageurl="http://www.asu.edu/asuwebrw/asusite/map/images/lightrail.jpg"
+          toururl="http://uabf.asu.edu/parking_commuter_lightrail"/>	  
+		  
+		  
+    </markerset>
+
+  <markerset type="visitorparking" name="Visitor Parking">
+    <marker code="APACHEBLVD" name="Apache Boulevard Structure (Long-term Visitor Parking)" lat="33.41585" lon="-111.93350" />
+    <marker code="RURALRD" name="Rural Road Structure (Long-term Visitor Parking)" lat="33.41820" lon="-111.92770" />
+    <marker code="FULTONCTR" name="Fulton Center Structure (Long-term Visitor Parking)" lat="33.42300" lon="-111.93430" />
+    <marker code="Lot 9" name="Lot 9 (Metered Visitor)" lat="33.418611" lon="-111.939444" />
+    <marker code="Lot 13" name="Lot 13 (Metered Visitor)" lat="33.416245" lon="-111.935749" />
+    <marker code="Lot 14" name="Lot 14 (Metered Visitor)" lat="33.420105" lon="-111.938238" />
+	<marker code="Lot 17" name="Lot 17 (Visitor)" lat="33.414293" lon="-111.933002" />
+	<marker code="Lot 19" name="Lot 19 (Visitor)" lat="33.414167" lon="-111.933611" />
+    <marker code="Lot 18" name="Lot 18 (Visitor)" lat="33.421555" lon="-111.938688" />
+	<marker code="Lot 20" name="Lot 20 (Visitor)" lat="33.420364" lon="-111.938549" />
+	<marker code="Lot 27" name="Lot 27 (Metered Visitor)" lat="33.417875" lon="-111.931436" />
+	<marker code="Lot 45" name="Lot 45 (Pay Box Visitor)" lat="33.411944" lon="-111.925" />
+	<marker code="Lot 49" name="Lot 49 (Health Services Visitor)" lat="33.42141" lon="-111.93336" />
+	<marker code="Lot 57" name="Lot 57 (Visitor)" lat="33.423113" lon="-111.926769" />
+	<marker code="Lot 60" name="Lot 60 (Metered Visitor)" lat="33.422120" lon="-111.930899" />
+    <marker code="Lot 61" name="Lot 61 (Metered Visitor)" lat="33.422084" lon="-111.933099" />
+    <marker code="Lot 62" name="Lot 62 (Metered Visitor)" lat="33.41791" lon="-111.92591" />
+    <marker code="Lot 66" name="Lot 66 (Metered Visitor)" lat="33.420911" lon="-111.937637" />
+  </markerset>
+
+  <markerset type="decalparking" name="Permit Parking">
+    <marker code="APACHE BLVD PS" name="Apache Boulevard Parking Structure (Visitor/Permit)" lat="33.41547" lon="-111.93399" />
+    <marker code="BRICKYARD PS" name="Brickyard Parking Structure (Permit)" lat="33.423333" lon="-111.938333" />
+    <marker code="CHASE GARAGE" name="Chase Garage at Centerpoint (Permit)" lat="33.422961" lon="-111.941864" />
+    <marker code="FULTON CTR PS" name="Fulton Center Parking Structure (Visitor/Permit)" lat="33.42300" lon="-111.93430" />
+    <marker code="PACKARD DR PS" name="Packard Drive South Parking Structure (Permit)" lat="33.42552" lon="-111.92873" />
+    <marker code="RURAL RD PS" name="Rural Road Parking Structure (Visitor/Permit)" lat="33.41761" lon="-111.92723" />
+    <marker code="STADIUM PS" name="Stadium Parking Structure (Permit)" lat="33.42400" lon="-111.93318" />
+    <marker code="TENTH ST PS" name="10th Street Parking Structure (Permit)" lat="33.42017" lon="-111.93774" />
+    <marker code="TYLER ST PS" name="Tyler Street Parking Structure (Permit)" lat="33.42071" lon="-111.92826" />
+    <marker code="UNIV TOWERS PS" name="University Towers Parking Structure (Permit)" lat="33.42474" lon="-111.93609" />
+    <marker code="Lot 3" name="Lot 3 (Permit)" lat="33.41586" lon="-111.93849" />
+    <marker code="Lot 11" name="Lot 11 (Disabled Permit)" lat="33.42060" lon="-111.93602" />
+    <marker code="Lot 15" name="Lot 15 (M/C Permit)" lat="33.41598" lon="-111.93520" />
+    <marker code="Lot 16" name="Lot 16 (Permit)" lat="33.42067" lon="-111.93933" />
+    <marker code="Lot 40W" name="Lot 40 West (M/C Permit)" lat="33.415600" lon="-111.930084" />
+    <marker code="Lot 41" name="Lot 41 (Disabled Permit)" lat="33.41777" lon="-111.93003" />
+    <marker code="Lot 43" name="Lot 43 (Permit)" lat="33.41954" lon="-111.92944" />
+    <marker code="Lot 46" name="Lot 46 (Disabled Permit)" lat="33.42153" lon="-111.93018" />
+    <marker code="Lot 47" name="Lot 47 (Permit)" lat="33.41040" lon="-111.92567" />
+    <marker code="Lot 50" name="Lot 50 (Permit)" lat="33.42353" lon="-111.93279" />
+    <marker code="Lot 58" name="Lot 58 (Permit)" lat="33.42466" lon="-111.92968" />
+    <marker code="Lot 59" name="Lot 59 (Permit)" lat="33.42732" lon="-111.92984" />
+    <marker code="Lot 59N" name="Lot 59 North (Permit)" lat="33.429014" lon="-111.929665" />
+    <marker code="Lot 59E" name="Lot 59 East (Permit)" lat="33.4244661" lon="-111.9258892" />
+    <marker code="Lot 63" name="Lot 63 (Permit)" lat="33.419147" lon="-111.925953" />
+    <marker code="Lot 65" name="Lot 65 (M/C Permit)" lat="33.42134" lon="-111.93785" />
+    <marker code="Lot 72" name="Lot 72 (Permit)" lat="33.411964" lon="-111.926683" />
+  </markerset>
+</campusmap>
