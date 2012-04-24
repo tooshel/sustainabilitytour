@@ -7,6 +7,8 @@
 
 .usethis {transform: rotate(360); transition: transform infinite;}
 
+body, html { overflow: hidden; }
+
 img.my-ui-li-icon {
     top:.6em !important;
     width:16px;
