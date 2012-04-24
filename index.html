@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Sustainabilty Initiatives Tour</title>
+</head>
+
+<script type="text/javascript">
+
+    $(document).ready(function(){
+
+        window.setInterval(function(){
+          if(localStorage.getItem('position')){
+            $('input[name=position]').val(localStorage.getItem('position'));
+          }
+        }, 2000);
+        
+        $('.vertical').click(function(){
+
+            $('#simulatorContentHorizontal').hide();
+            $('#vert').show('normal');
+            $('input[name=orientation]').val('portrait');
+        })
+
+        $('.horizontal').click(function(){
+          $('#simulatorContent').hide();
+          $('#simulatorContentHorizontal').show('normal');
+          $('input[name=orientation]').val('landscape');
+        })
+    })
+
+  </script>
+
+<style type="text/css">
+	#simwrapper {
+		background-image:url('www/images-other/iphonebg.png');
+		height:871px;
+		width:393px;
+		overflow:hidden;
+	}
+	#framepad {
+		padding:155px 0px 0px 38px;
+	}
+	
+	#frame {
+	}
+</style>
+<body>
+
+	
+<div id="simwrapper">
+    <div id="framepad">
+    <iframe id="frame" width="320" height="480" src="www/index.html" frameborder="0"></iframe>
+    </div>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function(){
+});
+</script> 
+
+</body>
+</html>

@@ -5,6 +5,8 @@
 	font-family: sans-serif;
 }
 
+body, html { overflow: hidden; }
+
 
 img.my-ui-li-icon {
     top:.6em !important;
