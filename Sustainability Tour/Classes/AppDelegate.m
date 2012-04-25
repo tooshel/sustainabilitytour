@@ -60,7 +60,8 @@
  * This is main kick off after the app inits, the views and Settings are setup here. (preferred - iOS4 and up)
  */
 - (BOOL) application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions
-{    
+{   
+    
     //(id)[NSClassFromString(@"WebView") _enableRemoteInspector];
     [NSClassFromString(@"WebView") performSelector:@selector(_enableRemoteInspector)];
 

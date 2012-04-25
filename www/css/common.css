@@ -7,7 +7,10 @@
 
 .usethis {transform: rotate(360); transition: transform infinite;}
 
-body, html { overflow: hidden; }
+body, html { 
+    overflow: hidden; 
+    background-color:#F9F9F9;
+}
 
 img.my-ui-li-icon {
     top:.6em !important;
@@ -37,10 +40,37 @@ p { /*
      */
 }
 
+.poi {
+    color:#903;
+}
+
+.greenpoi {
+    color:#568E14;
+}
+
+
+p {
+    padding:10px 10px 10px 10px
+}
+
 h2 {
     margin:0px 0px 0px 0px;
     padding:0px 0px 0px 0px;
-    font-size:18px;
+    font-size:17px;
+}
+
+h2.location {
+    padding:10px 10px 10px 10px;
+    padding-left: 20px;
+    text-indent:2
+}
+
+img.icon
+{
+    float:left;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-top: 10px;
 }
 
 img.auto
@@ -50,6 +80,9 @@ img.auto
     max-width: 100%;
 }
 
+div.zeropad {
+    padding:0; 
+}
 
 #map_content {
     padding: 0px 0px 0px 0px;

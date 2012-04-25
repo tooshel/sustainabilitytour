@@ -24,15 +24,27 @@ PROBLEMS:
 --clicking on back and seeing the map all messed up
 
 
-
+$('#map-page').live('pageshow',function(event){
+                          
+                          google.maps.event.trigger(cm_map,'resize');
+      
 
 FOR DEMO:
-Explain PhoneGap
-Show that it's backed by a google doc
+It's PhoneGap! Website AND iPad app AND Android versions.
+Data stored in a google doc
+The debugger! http://localhost:9999/
+It's on github! 
+
+http://tour.dev.gios.asu.edu/
+http://tour.dev.gios.asu.edu/?dragme=true
 
 
 
-
+LESSONS:
+--Forcing the map to show up correctly in the iPhone simulator!!
+$('#map-page').live('pageshow',function(event){
+                          google.maps.event.trigger(cm_map,'resize');
+--Setting a maker to "draggable" will make it so it won't respond to click events in the iOS simulator. v=3.3 of the google maps api it works fine but later versions fail.
 
 
 

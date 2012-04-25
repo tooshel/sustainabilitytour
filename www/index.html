@@ -1,86 +1,89 @@
 <!DOCTYPE html>
 <html>
-  <head>
-  <title></title>
-  
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-	<meta charset="utf-8">
-
+    <head>
+        <title></title>
         
-    <link rel="stylesheet" href="css/common.css" type="text/css" />
-    <link rel="stylesheet" href="js/jquery.mobile-1.1.0/jquery.mobile-1.1.0.min.css" />
-        
-	<!-- iPad/iPhone specific css below, add after your main css >
-	<link rel="stylesheet" media="only screen and (max-device-width: 1024px)" href="ipad.css" type="text/css" />		
-	<link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="iphone.css" type="text/css" />		
-	-->
-	<!-- If your application is targeting iOS BEFORE 4.0 you MUST put json2.js from http://www.JSON.org/json2.js into your www directory and include it here -->
-    <script type="text/javascript" charset="utf-8" src="js/cordova-1.6.0.js"></script>
-    <script type="text/javascript" charset="utf-8" src="js/jquery-1.7.2.min.js"></script>
-    <script type="text/javascript" charset="utf-8">
-    $(document).bind("mobileinit", function(){
-                     //$.mobile.defaultPageTransition = 'slide';
-                     $.mobile.defaultPageTransition = 'none';
-                     $.mobile.pushStateEnabled = false;
-    });
-	    
-    </script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta charset="utf-8" />
         
         
-    <script type="text/javascript" charset="utf-8" src="js/jquery.mobile-1.1.0/jquery.mobile-1.1.0.min.js"></script>
-
+        <link rel="stylesheet" href="css/common.css" type="text/css" />
+        <link rel="stylesheet" href="js/jquery.mobile-1.1.0/jquery.mobile-1.1.0.min.css" />
+        
+        <!-- iPad/iPhone specific css below, add after your main css >
+         <link rel="stylesheet" media="only screen and (max-device-width: 1024px)" href="ipad.css" type="text/css" />		
+         <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="iphone.css" type="text/css" />		
+         -->
+        <!-- If your application is targeting iOS BEFORE 4.0 you MUST put json2.js from http://www.JSON.org/json2.js into your www directory and include it here -->
+        <script type="text/javascript" charset="utf-8" src="js/cordova-1.6.0.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript" charset="utf-8">
+            $(document).bind("mobileinit", function(){
+                             //$.mobile.defaultPageTransition = 'slide';
+                             $.mobile.defaultPageTransition = 'none';
+                             $.mobile.pushStateEnabled = false;
+                             });
+            
+            </script>
         
         
-    <!--
-     <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script> 
-     <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false&libraries=geometry"></script>
-    -->
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true&libraries=geometry"></script> 
+        <script type="text/javascript" charset="utf-8" src="js/jquery.mobile-1.1.0/jquery.mobile-1.1.0.min.js"></script>
         
-
-    <script type="text/javascript" charset="utf-8" src="js/arrows.js"></script>
-
-	<script type="text/javascript">
-
-
-	// If you want to prevent dragging, uncomment this section
-	/*
-	function preventBehavior(e) 
-	{ 
-      e.preventDefault(); 
-    };
-	document.addEventListener("touchmove", preventBehavior, false);
-	*/
-	
-	/* If you are supporting your own protocol, the var invokeString will contain any arguments to the app launch.
-	see http://iphonedevelopertips.com/cocoa/launching-your-own-application-via-a-custom-url-scheme.html
-	for more details -jm */
-	/*
-	function handleOpenURL(url)
-	{
-		// TODO: do something with the url passed in.
-	}
-	*/
-	
-	function onBodyLoad()
-	{		
-		document.addEventListener("deviceready", onDeviceReady, false);
-	}
-	
-	/* When this function is called, Cordova has been initialized and is ready to roll */
-	/* If you are supporting your own protocol, the var invokeString will contain any arguments to the app launch.
-	see http://iphonedevelopertips.com/cocoa/launching-your-own-application-via-a-custom-url-scheme.html
-	for more details -jm */
-	function onDeviceReady()
-	{
-		// do your thing!
-		//navigator.notification.alert("Cordova is working")
-	}
-    
-	</script>
-
-</head>
-<body onload="onBodyLoad()">
+        
+        
+        <!--
+         <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script> 
+         <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false&libraries=geometry"></script>
+         
+         <script type="text/javascript" src="http://maps.google.com/maps/api/js?v=3.3&sensor=true&libraries=geometry"></script> 
+         -->
+        
+        
+        <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true&libraries=geometry"></script> 
+        
+        <script type="text/javascript" charset="utf-8" src="js/arrows.js"></script>
+        
+        <script type="text/javascript">
+            
+            
+            // If you want to prevent dragging, uncomment this section
+            /*
+             function preventBehavior(e) 
+             { 
+             e.preventDefault(); 
+             };
+             document.addEventListener("touchmove", preventBehavior, false);
+             */
+            
+            /* If you are supporting your own protocol, the var invokeString will contain any arguments to the app launch.
+             see http://iphonedevelopertips.com/cocoa/launching-your-own-application-via-a-custom-url-scheme.html
+             for more details -jm */
+            /*
+             function handleOpenURL(url)
+             {
+             // TODO: do something with the url passed in.
+             }
+             */
+            
+            function onBodyLoad()
+            {		
+                document.addEventListener("deviceready", onDeviceReady, false);
+            }
+            
+            /* When this function is called, Cordova has been initialized and is ready to roll */
+            /* If you are supporting your own protocol, the var invokeString will contain any arguments to the app launch.
+             see http://iphonedevelopertips.com/cocoa/launching-your-own-application-via-a-custom-url-scheme.html
+             for more details -jm */
+            function onDeviceReady()
+            {
+                // do your thing!
+                //navigator.notification.alert("Cordova is working")
+            }
+            
+            </script>
+        
+    </head>
+    <body onload="onBodyLoad()">
     <div id="scriptHolder"></div>
     
     
@@ -90,10 +93,8 @@
         <div data-role="header" data-position="fixed" data-theme="">
             <h3>Initiatives Tour</h3>
             <a href="index.html" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home" data-ajax="false">Home</a>
-        
             <a href="index.html#list" data-transition="fade" data-type="horizontal" data-icon="grid" data-iconpos="left" data-direction="reverse" class="ui-btn-left">List</a>
         </div>
-        
         
         <div data-role="content" id="map_content" data-theme="">
             <div id="map_content">
@@ -104,15 +105,11 @@
         </div>
     </div>
     
-    
-
-    
         
     <div data-role="page" id="list" data-add-back-btn="true">  
         <div data-role="header" data-position="fixed" data-theme="">
             <h3>Initiatives Tour</h3>
             <a href="index.html" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home" data-ajax="false">Home</a>
-            
         </div>
 
         <div data-role="content"> 
@@ -121,19 +118,16 @@
             </ul> 
 
         </div>
-        
     </div>
 
-    
+        
     <div data-role="page" id="location" data-add-back-btn="true">  
         <div data-role="header" data-position="fixed" data-theme="">
             <h3>Tour Details</h3>
             <a href="index.html" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home" data-ajax="false">Home</a>
-            
-        
         </div>
         
-        <div data-role="content"> 
+        <div data-role="content" class="zeropad"> 
             <ul data-role="listview" id="list"><!-- Special Widget which is List View to show data in a list -->
                     <!-- This all gets replaced with js -->
             </ul> 
@@ -143,7 +137,7 @@
 
     <div data-role="page" id="splash" data-add-back-btn="true">  
         <div data-role="header" data-position="fixed" data-theme="">
-            <h3>Tour Details</h3>
+            <h3>Splash/Icon</h3>
             <a href="index.html" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home" data-ajax="false">Home</a>
         </div>
         
@@ -158,7 +152,7 @@
     
     <div data-role="page" id="credits" data-add-back-btn="true">  
         <div data-role="header" data-position="fixed" data-theme="">
-            <h3>Tour Details</h3>
+            <h3>Credits</h3>
             <a href="index.html" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home" data-ajax="false">Home</a>
             
             
@@ -181,6 +175,10 @@
 <script type="text/javascript"> 
     
     //<![CDATA[
+    
+    //var foo;
+    //$.each(cm_mapMarkers, function(i, obj) {foo[obj.locid] = obj});
+
     var cm_map;
     var cm_openInfowindow;
     var cm_mapMarkers = [];
@@ -213,6 +211,7 @@
     var param_iconType = "red";
     var param_iconOverType = "orange";
     var param_iconColumn = "icon";
+    var param_categoryColumn = "category";
     var param_iconPath = "icons/20/";
     var param_iconPathOriginal = "icons/";
     var param_imagePath = "images/";
@@ -296,9 +295,10 @@
 			// area of the page.
             
 			var markup = "";
-            markup += '<h2><img align="absmiddle" class="ui-li-icon my-title-icon" src="'+cm_mapMarkers[marker].listicon+'"/>' + cm_mapMarkers[marker].title + '</h2>';
-            markup += '<p>' + cm_mapMarkers[marker].desc + '</p>';
+            //markup += '<h2 class="location '+cm_mapMarkers[marker].category+'"><img align="absmiddle" class="ui-li-icon my-title-icon" src="'+cm_mapMarkers[marker].listicon+'"/>' + cm_mapMarkers[marker].title + '</h2>';
+            markup += '<img align="absmiddle" class="ui-li-icon icon" src="'+cm_mapMarkers[marker].listicon+'"/><h2 class="location '+cm_mapMarkers[marker].category+'">' + cm_mapMarkers[marker].title + '</h2>';
             markup += '<img class="auto" src="' + cm_mapMarkers[marker].image + '" />';
+            markup += '<p>' + cm_mapMarkers[marker].desc + '</p>';
             
 			//markup = "<p>" + category.description + "</p><ul data-role='listview' data-inset='true'>",
             //markup += "<ul data-role='listview' data-inset='true'>";
@@ -615,6 +615,7 @@
                 var locid = entry["gsx$"+param_idColumn].$t;
                 var desc = entry["gsx$"+param_descColumn].$t;
                 var image = entry["gsx$"+param_imageColumn].$t;
+                var category = entry["gsx$"+param_categoryColumn].$t;
                 
                 
                 var rank = 0;
@@ -632,7 +633,7 @@
                 // create the marker
                 if(lat && lng) {
                     console.log(i, locid, lat, lng, icon);
-                    var marker = cm_createMarker(cm_map,point,label,html,icon,locid,desc,image);
+                    var marker = cm_createMarker(cm_map,point,label,html,icon,locid,desc,image, category);
                    
                     cm_mapMarkers.push(marker);
                     cm_mapHTMLS.push(html);
@@ -695,7 +696,7 @@
      * @param {Number} rank Number rank of marker, used in creating icon
      * @return {GMarker} Marker created
      */
-    function cm_createMarker(map, latlng, title, html, icon, locid, desc, image) {
+    function cm_createMarker(map, latlng, title, html, icon, locid, desc, image, category) {
         var iconSize = new google.maps.Size(20, 20);
         var scaledIconSize = new google.maps.Size(10, 10);
         
@@ -745,48 +746,76 @@
         new google.maps.MarkerImage(iconImageOutUrl, iconSize,
                                     iconPosition, iconHotSpotOffset, scaledIconSize);
         
-        var markerOptions = {
-            title: title,
-            icon: markerImage,
-            /* shadow: markerShadow,
-             
-             */
-            draggable:true,
-            position: latlng,
-            map: map
+        if(window.location.search == "?dragme=true") {
+            var markerOptions = {
+                title: title,
+                icon: markerImage,
+                draggable:true,
+                clickable:false,
+                position: latlng,
+                map: map
+            }
+        } else {
+            var markerOptions = {
+                title: title,
+                icon: markerImage,
+                draggable:false,
+                clickable:true,
+                position: latlng,
+                map: map
+            }
         }
         
         var marker = new google.maps.Marker(markerOptions);
+        
         marker.locid = locid;
         marker.desc = desc;
+        marker.category = category;
         marker.originalicon = param_iconPathOriginal+icon;
         marker.listicon = param_iconPath+icon;
         marker.image = param_imagePath + image;
+        
+        if(window.location.search == "?dragme=true") {
+            google.maps.event.addListener (marker, 'dragend', function (event) 
+                                           {
+                                           console.log(marker.locid, marker.position.lat() + "\t" + marker.position.lng());
+                                           });
+        } else {
+            //Brute force way to get the map to respond to click event on all platforms! Probably wrong!
+            google.maps.event.addListener(marker, 'touchstart', function() {
+                                          document.location.href = "index.html#location?locationid="+marker.locid;
+                                          /*
+                                           var infowindowOptions = {content: html}
+                                           var infowindow = new google.maps.InfoWindow(infowindowOptions);
+                                           cm_setInfowindow(infowindow);
+                                           infowindow.open(map, marker);
+                                           marker.setIcon(markerImageOut);
+                                           */
+                                          });
+            google.maps.event.addListener(marker, 'mouseup', function() {
+                                          document.location.href = "index.html#location?locationid="+marker.locid;
+                                          /*
+                                           var infowindowOptions = {content: html}
+                                           var infowindow = new google.maps.InfoWindow(infowindowOptions);
+                                           cm_setInfowindow(infowindow);
+                                           infowindow.open(map, marker);
+                                           marker.setIcon(markerImageOut);
+                                           */
+                                          });
+            
+            google.maps.event.addListener(marker, 'click', function() {
+                                          document.location.href = "index.html#location?locationid="+marker.locid;
+                                          /*
+                                           var infowindowOptions = {content: html}
+                                           var infowindow = new google.maps.InfoWindow(infowindowOptions);
+                                           cm_setInfowindow(infowindow);
+                                           infowindow.open(map, marker);
+                                           marker.setIcon(markerImageOut);
+                                           */
+                                          });
+        }
 
-        
-        google.maps.event.addListener (marker, 'dragend', function (event) 
-                                       {
-                                       console.log(marker.locid, marker.position.lat() + "\t" + marker.position.lng());
-                                       });
-        
-        google.maps.event.addListener(marker, "click", function() {
-                                      
-                                      //console.log(marker);
-                                      
-                                      //#location?locationid=2
-                                      
-                                      document.location.href = "index.html#location?locationid="+marker.locid;
-                                      
-                                      /*
-                                      var infowindowOptions = {content: html}
-                                      var infowindow = new google.maps.InfoWindow(infowindowOptions);
-                                      cm_setInfowindow(infowindow);
-                                      infowindow.open(map, marker);
-                                      marker.setIcon(markerImageOut);
-                                      */
-                                      
-                                      
-                                      });
+
         /*
         google.maps.event.addListener(marker, "mouseover", function() {
                                       marker.setIcon(markerImageOver);
@@ -822,57 +851,20 @@
     
     //]]>
     
-</script> 
-	
-</td></tr> 
-</table> 
-
-
-<script>
-    $(function() {
-      
-      /*
-       $("div:jqmData(role='page'):last").bind('pageinit', function() {
-       alert('pageInit');
-       });
-       
-       $(document).bind( "pagechange", function( e, data ) {
-       alert('pagechange');
-       });
-       */
-      $('#map-page').live('pageshow',function(event){
-                          //This is the call that works when the map reloads . . . just neeed to know what to do here!
-                          //alert("map-page pageshow");
-                          
-                          
-                          /*
-                          
-                          var mapheight=$(window).height() - 263;
-                          var mapwidth=$(window).width();
-                          $("#cm_map").height(mapheight);
-                          $("#cm_map").width(mapwidth);
-                          //setTimeout("cm_load()",150);
-                          */
-                          
-                          });
-      
-      
-      
-      $("#map_content").live('pageshow', function() {
-                             alert("map_content pageshow");
-                             
-                             /*
-                              var mapheight=$(window).height() - 263;
-                              var mapwidth=$(window).width();
-                              $("#cm_map").height(mapheight);
-                              $("#cm_map").width(mapwidth);
-                              setTimeout("cm_load()",150);
-                              
-                              */
-                             
-                             });
-      
-      });
-</script>
-</body>
+    </script> 
+        
+        </td></tr> 
+        </table> 
+        <script>
+            $(function() {
+              
+              //This is to solve the problem with the map not showing up right when you click back
+              $('#map-page').live('pageshow',function(event){
+                                  google.maps.event.trigger(cm_map,'resize');
+                                  //also saw something like this as an example but it didn't work for me
+                                  //$('#cm_map').gmap('refresh');
+                                  });
+              });
+            </script>
+    </body>
 </html>
